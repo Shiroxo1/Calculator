@@ -1,0 +1,14 @@
+int x = Integer.parseInt (jTextField1.getText());
+        int y = Integer.parseInt (jTextField2.getText());
+        
+        int plus = x + y;
+        int minus = x - y;
+        int times = x * y;
+        int divide = x / y;
+        
+        jTextField3.setText(" " + String.valueOf(plus));
+        jTextField4.setText(" " + String.valueOf(minus));
+        jTextField5.setText(" " + String.valueOf(times));
+        jTextField6.setText(" " + String.valueOf(divide));
+        
+        JOptionPane.showMessageDialog(rootPane, "Computation Complete");
